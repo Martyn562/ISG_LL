@@ -1,7 +1,7 @@
 //first returns {promise<3>}
 function makePromiseResolveWith3(){
   
-    new Promise( resolve => { 
+   return new Promise( resolve => { 
 
     resolve(3);
 
@@ -10,7 +10,7 @@ function makePromiseResolveWith3(){
 }
 //second returns promise<"Boo!">
 function makePromiseRejectWithBoo(){
-    new Promise( reject=> { 
+    return new Promise( reject=> { 
 
         reject("Boo!");
         
