@@ -12,7 +12,7 @@ function makePromiseResolveWith3(){
 function makePromiseRejectWithBoo(){
     return new Promise( reject=> { 
 
-        reject("Boo!");
+        reject("Boo");
         
     });
 }
@@ -39,12 +39,16 @@ function makeDelayPromise(value, delayInMs){
 
 //first wait for promise then action.
 function waitForPromise(promise, action){
-    promise.then(action);
+    promise.then(action)
+  .catch(action)
 }
   
 //second consumePromise after promise
 function consumePromise(promise, consumer, handler){
     promise.then( thunk => {
         consumer(handler(thunk))
-    });
+    })
+  .catch( thunk =>{
+        consumer(handler(thunk))
+        });
 }
