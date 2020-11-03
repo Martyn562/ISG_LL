@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: garamond;
+}
+
+body {
+  background-color: #43b5fc;
+}
+
+.container {
+  width: 100%;
+  background: #000;
+}
+
+.container .navbar-light {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container .navbar-light .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px;
+}
+
+.container .navbar-light .navbar-nav li {
+  text-decoration: none;
+  list-style: none;
+  vertical-align: center;
+}
+
+.container .navbar-light .navbar-nav li .nav-item {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-style: garamond;
+  padding: 5px 15px;
+}
+
+.container .navbar-light .navbar-nav li .nav-item:hover {
+  background-color: #167BFF;
+  border-radius: 5px;
+}
+
+.container .navbar-light .navbar-nav .nav-btn {
+  color: white;
+  outline: 0;
+  background-color: #167BFF;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 5px 15px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.container .navbar-light .navbar-nav .nav-btn:active {
+  background-color: #167bff;
+}
+
+.container .navbar-light .navbar-nav .uName {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  margin: 80px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 100px auto 0;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form .title {
+  margin: 0 0 20px 0;
+}
+
+form .form-input, form .form-btn {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+form .form-input:focus {
+  outline: 0;
+  border: 1px solid green;
+}
+
+form .form-btn {
+  background-color: rgba(22, 123, 255, 0.7);
+  border: 1px solid black;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  outline: 0;
+  cursor: pointer;
+}
+
+form .form-btn:active {
+  background-color: #167bff;
+}
+/*# sourceMappingURL=App.css.map */
