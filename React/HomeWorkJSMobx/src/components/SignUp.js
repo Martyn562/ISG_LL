@@ -16,7 +16,7 @@ const SignUp = ( props ) => {
 
     props.Store.users.map( users =>{
       
-    if(Confirmation==password){
+    if(Confirmation===password){
       if(username !== '' && password !== '')
       if (username !== users.username) {
         props.Store.users.push({username, password})

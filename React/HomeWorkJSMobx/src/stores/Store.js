@@ -17,9 +17,7 @@ export class Store {
       this.setAuthentication(true);
     } 
     else{
-      {
         <p>Something get wrong, try Again !</p>
-      }
     }
   }
   SignOut(){

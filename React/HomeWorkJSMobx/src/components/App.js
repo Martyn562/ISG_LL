@@ -3,7 +3,6 @@ import { Link, Route, Switch } from "react-router-dom";
 import SignUp from "./SignUp";
 import SignIn from './SignIn';
 import Content from "./Content";
-import  Store  from "../stores/Store";
 import { inject, observer } from "mobx-react";
 import './App.scss'
 
