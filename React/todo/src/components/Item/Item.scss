@@ -1,0 +1,26 @@
+.row-item{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 2px;
+    width: 500px;
+
+
+    .item-content{
+        flex: 1 1 auto;
+        margin: 5px;
+        vertical-align: center;
+    }
+
+    .item-btn{
+        background-color: rgb(255, 0, 0);
+        border: 0;
+        outline: 0;
+        border-radius: 2px;
+        margin: 0 5px 0 0;
+        padding: 0 10px;
+        color:white;
+    }
+}

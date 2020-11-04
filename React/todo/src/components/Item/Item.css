@@ -1,0 +1,32 @@
+.row-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 2px;
+  width: 500px;
+}
+
+.row-item .item-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 5px;
+  vertical-align: center;
+}
+
+.row-item .item-btn {
+  background-color: red;
+  border: 0;
+  outline: 0;
+  border-radius: 2px;
+  margin: 0 5px 0 0;
+  padding: 0 10px;
+  color: white;
+}
+/*# sourceMappingURL=Item.css.map */

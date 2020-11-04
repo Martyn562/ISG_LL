@@ -1,0 +1,27 @@
+
+.container {
+
+    padding: 30px;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+
+    .main-title{
+        text-align: center;
+        font-family: garamond;
+    }
+    .todo-create{
+        padding: 20px 50px;
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    .todo-list{
+        flex: 1 1 auto;
+    }
+
+}
