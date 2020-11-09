@@ -52,3 +52,12 @@ function consumePromise(promise, consumer, handler){
         consumer(handler(thunk))
         });
 }
+
+module.exports = {
+    makePromiseResolveWith3,
+    makePromiseRejectWithBoo,
+    makePromiseWithConstructor,
+    makeDelayPromise,
+    waitForPromise,
+    consumePromise,
+  };
